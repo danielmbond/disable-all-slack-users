@@ -28,7 +28,7 @@ while($cursor) {
     }
     $members += ($users).members
     $cursor = ($users.response_metadata).next_cursor
-    Start-Sleep 5
+    Start-Sleep 1
 }
 
 $headers = New-Object "System.Collections.Generic.Dictionary[[String],[String]]"
