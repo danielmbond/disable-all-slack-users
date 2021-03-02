@@ -8,7 +8,7 @@ Sets a Slack user to deactivated. The value of the {id} should be the user's cor
  DELETE /scim/v1/Users/42 HTTP/1.1
  Host: api.slack.com
  Accept: application/json
- Authorization: Bearer xoxp-4956040672-4956040692-6476208902-xxxxxx
+ Authorization: Bearer xoxp-
 #>
 
 # Token scopes needed are admin and user:read
